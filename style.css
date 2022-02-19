@@ -55,9 +55,17 @@ main h1, .Learn_more_btn{ color: hsl(0, 0%, 95%); }
 .suv .Learn_more_btn{ color: hsl(184, 100%, 22%) }
 .luxury .Learn_more_btn{ color: hsl(179, 100%, 13%) }
 
-.description{
-    padding-bottom: 32%;
+.description{ padding-bottom: 32% }
+
+.Learn_more_btn:hover{
+    transition: .3s ease;
+    color: hsl(0, 0%, 95%);
+    border: solid;
 }
+
+.sedan .Learn_more_btn:hover{ background-color: hsl(31, 77%, 52%) } 
+.suv .Learn_more_btn:hover{ background-color: hsl(184, 100%, 22%) }
+.luxury .Learn_more_btn:hover{ background-color: hsl(179, 100%, 13%) }
 
 .Learn_more_btn{
     border: none;
@@ -77,3 +85,7 @@ footer {
 }
 
 footer a { color: hsl(228, 45%, 44%) }
+
+@media screen and (max-width: 376px){
+
+}
